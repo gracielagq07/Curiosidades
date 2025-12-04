@@ -26,7 +26,7 @@ Al crear esta aplicación, me enfoqué en dominar:
 * **Lógica:** JavaScript (Vanilla JS)
 * **Datos:** Useless Facts API
 
-### 👉  ¡Cotillealo aquí!!!
+### 👉  ¡Cotillealo aquí!!! -- https://gracielagq07.github.io/Curiosidades/
 
 ---
 
