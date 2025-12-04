@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curiosityoftheday - Lol </title>
+    <link rel="stylesheet" href=/style.css>
+</head>
+
+<body>
+    <header class="app-header">
+        <h1 class="app-title"> 💁‍♀️ FRASES CURIOSAS </h1>
+    </header>
+
+    <main class="app-container">
+        <section class="insight-display card">
+            <h2 class="section-title"> 👉 Frase del día</h2>
+
+            <div id="insight-content" class="insight-content">
+
+                <p id="loading-state" class="loading-state">Cargando... 🕐 </p>
+
+                <div id="rate-display" class="rate-display hidden">
+                    <span class="rate-value"></span>
+                    <span class="rate-timestamp"></span>
+                </div>
+            </div>
+
+            <div class="action-buttons">
+                <button id="btn-new-insight" class="btn btn-primary">Obtener Frase Nueva</button>
+                <button id="btn-save-rate" class="btn btn-secondary">Guardar Favorita</button>
+            </div>
+        </section>
+
+        <section class="favorites-list card">
+            <h2 class="section-title">Frases Guardadas</h2>
+            <ul id="saved-rates-container" class="rate-list">
+            </ul>
+        </section>
+
+    </main>
+
+    <audio id="success-sound" src="audio/success.mp3" preload="auto"></audio>
+
+    <script src="./main.js" defer></script>
+
+    <footer class="app-footer">
+        <p> Protección de datos</p>
+        <p> Contacto</p>
+    </footer>
+</body>
+
+</html>

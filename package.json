@@ -1,0 +1,15 @@
+{
+  "name": "fininsigth",
+  "version": "1.0.0",
+  "description": "Proyecto de prueba unitaria",
+  
+  "scripts": {
+    "test": "vitest",  
+    "test:watch": "vitest --watch"
+  },
+  
+  "devDependencies": {
+    "vitest": "^4.0.14"
+  }
+}
+
