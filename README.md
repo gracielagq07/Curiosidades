@@ -37,3 +37,21 @@ Al crear esta aplicación, me enfoqué en dominar:
     git clone [https://github.com/gracielagq07/Curiosidades.git](https://github.com/gracielagq07/Curiosidades.git)
     ```
 2.  **Abre en VS Code** y usa la extensión Live Server para ejecutar `index.html`.
+
+
+## 📂 Estructura del Proyecto 
+
+```text
+CURIOSIDADES/
+├── node_modules/       
+├── audio/
+│   └── success.mp3
+├── scripts/
+│   └── test1.test.js
+├── styles/
+│   └── style.css
+├── index.html
+├── package-lock.json
+├── package.json
+└── README.md
+
