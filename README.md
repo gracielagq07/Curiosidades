@@ -42,8 +42,7 @@ Al crear esta aplicación, me enfoqué en dominar:
 ## 📂 Estructura del Proyecto 
 
 ```text
-CURIOSIDADES/
-├── node_modules/       
+CURIOSIDADES/     
 ├── audio/
 │   └── success.mp3
 ├── scripts/
